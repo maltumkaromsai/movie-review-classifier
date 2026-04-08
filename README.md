@@ -26,6 +26,12 @@ The objective of this project is to build a sentiment analysis model that can au
 - Polynomial Kernel SVM
 - RBF Kernel SVM
 
+## Best performing model 
+- Linear svm
+
+## Accuracy 
+- 88.11%
+
 ## Outcome
 Different SVM kernels were trained and compared to evaluate their performance on movie review sentiment classification.
 
