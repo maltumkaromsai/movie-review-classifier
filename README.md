@@ -17,17 +17,20 @@ The objective of this project is to build a sentiment analysis model that can au
 - Text preprocessing
 - Feature extraction
 - Model building
-- Model training
+- Training multiple SVM models
+- Model comparison
 - Evaluation
 
-## Model Used
-- Support Vector Machine (SVM)
+## Models Compared
+- Linear SVM
+- Polynomial Kernel SVM
+- RBF Kernel SVM
 
 ## Outcome
-The model was trained to classify movie reviews into positive and negative sentiment categories.
+Different SVM kernels were trained and compared to evaluate their performance on movie review sentiment classification.
 
 ## Project File
-- `movie_review_classifier.ipynb` → Main notebook containing preprocessing, training, and evaluation steps.
+- `movie_review_classifier.ipynb` → Main notebook containing preprocessing, training, model comparison, and evaluation.
 
 ## Author
 Om Sai
